@@ -7,6 +7,7 @@
 #' @import stats
 #' @import grDevices
 #' @import graphics
+#' @importFrom Matrix Matrix sparseMatrix
 #' @useDynLib WSGeometry
 NULL
 # @importFrom magick image_read image_animate image_write
