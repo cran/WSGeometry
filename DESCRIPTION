@@ -1,7 +1,7 @@
 Package: WSGeometry
 Type: Package
 Title: Geometric Tools Based on Balanced/Unbalanced Optimal Transport
-Version: 1.2
+Version: 1.2.1
 Date: 2021-12-10
 Author: Florian Heinemann [aut, cre], Nicholas Bonneel [ctb]
 Maintainer: Florian Heinemann <florian.heinemann@uni-goettingen.de>
@@ -14,6 +14,6 @@ Suggests: magick, mvtnorm, Rsymphony
 LinkingTo: RcppArmadillo, Rcpp
 RoxygenNote: 7.1.2
 NeedsCompilation: yes
-Packaged: 2021-12-10 12:24:45 UTC; FHein
+Packaged: 2021-12-10 22:51:51 UTC; FHein
 Repository: CRAN
-Date/Publication: 2021-12-10 12:50:02 UTC
+Date/Publication: 2021-12-14 23:00:10 UTC

@@ -1,4 +1,4 @@
-da41203aba9931ce66ed80bf6380756f *DESCRIPTION
+ce533885e0481a979d83f05e54a91081 *DESCRIPTION
 a04b816f5c34fb661c584d1a23bfaf89 *NAMESPACE
 455017f389c0fc41a000f9d450548682 *R/RcppExports.R
 995ad0fe3cbe6593391f195754cf0c6a *R/barycenterMain.R
@@ -45,7 +45,7 @@ e7e6af8b09e5aa00818679f8ad1bd071 *src/RcppExports.cpp
 0b2e1cde41e7d9b1b806d8e44cbc2683 *src/bary_sinkhorn_armadillo.cpp
 e083fcec2275f9e33308c0fcb43f8594 *src/full_bipartitegraph.h
 246f09c0278872ce53cbe9331e13577f *src/iterative_bary.cpp
-e020a68075c5ac96f26fc55c49446cdb *src/maaipm.cpp
+df3286a5225395bdb9197c0839dea36a *src/maaipm.cpp
 2ccd6ef9da7866ace7dbd786dca1002b *src/network_simplex_simple.h
 97c639141aadd4c4795c7183e54b975b *src/transport_arma.h
-f909c01ce5b10a11e73138b8c7ed9649 *src/umaaipm.cpp
+5337fb6892cabac215d770a0e581018c *src/umaaipm.cpp

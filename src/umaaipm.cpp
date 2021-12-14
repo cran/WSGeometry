@@ -231,7 +231,7 @@ Rcpp::List umaaipm_free_cpp(arma::vec p, arma::vec s, arma::vec x,const arma::ve
       xx.subvec(M,nr-2)= xx.subvec(M,nr-2)-(alpha*xx(nr-1)/cc);
       xx.subvec(0,M-1)=xx.subvec(0,M-1)/B1diag;
       xx(nr-1)/=cc;
-      if ((rel_gap>=(10^-3))&& (largesupp)){
+      if ((rel_gap>=(1e-3))&& (largesupp)){
         xx.subvec(M,nr-2)=UDLRM_intern(B1,B2,B3inv,Y,sizescsum, xx.subvec(M,nr-2),N,m,U);
       }
       else{   
@@ -271,7 +271,7 @@ Rcpp::List umaaipm_free_cpp(arma::vec p, arma::vec s, arma::vec x,const arma::ve
       xx.subvec(M,nr-2)= xx.subvec(M,nr-2)-(alpha*xx(nr-1)/cc);
       xx.subvec(0,M-1)=xx.subvec(0,M-1)/B1diag;
       xx(nr-1)/=cc;
-      if ((rel_gap>=(10^-3))&& (largesupp)){
+      if ((rel_gap>=(1e-3))&& (largesupp)){
         xx.subvec(M,nr-2)=UDLRM_intern(B1,B2,B3inv,Y,sizescsum, xx.subvec(M,nr-2),N,m,U);
       }
       else{   
@@ -473,7 +473,7 @@ Rcpp::List umaaipm_fixed_cpp(arma::vec p, arma::vec s, arma::vec x,const arma::v
       xx.subvec(M,nr-2)= xx.subvec(M,nr-2)-(alpha*xx(nr-1)/cc);
       xx.subvec(0,M-1)=xx.subvec(0,M-1)/B1diag;
       xx(nr-1)/=cc;
-      if ((rel_gap>=(10^-3))&& (largesupp)){
+      if ((rel_gap>=(1e-3))&& (largesupp)){
         xx.subvec(M,nr-2)=UDLRM_intern(B1,B2,B3inv,Y,sizescsum, xx.subvec(M,nr-2),N,m,U);
       }
       else{   
@@ -512,7 +512,7 @@ Rcpp::List umaaipm_fixed_cpp(arma::vec p, arma::vec s, arma::vec x,const arma::v
       xx.subvec(M,nr-2)= xx.subvec(M,nr-2)-(alpha*xx(nr-1)/cc);
       xx.subvec(0,M-1)=xx.subvec(0,M-1)/B1diag;
       xx(nr-1)/=cc;
-      if ((rel_gap>=(10^-3))&& (largesupp)){
+      if ((rel_gap>=(1e-3))&& (largesupp)){
         xx.subvec(M,nr-2)=UDLRM_intern(B1,B2,B3inv,Y,sizescsum, xx.subvec(M,nr-2),N,m,U);
       }
       else{   
